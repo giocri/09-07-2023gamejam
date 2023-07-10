@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://ciko1w2exdfvo"]
 
-[ext_resource type="PackedScene" uid="uid://bxpietvccr512" path="res://Producer.tscn" id="1_senbx"]
+[ext_resource type="PackedScene" uid="uid://bxpietvccr512" path="res://producer/Producer.tscn" id="1_senbx"]
 [ext_resource type="Script" path="res://GameJam.gd" id="1_vpxem"]
 
 [node name="Level" type="Node2D"]

@@ -1,17 +1,17 @@
 [gd_scene load_steps=3 format=3 uid="uid://bxpietvccr512"]
 
-[ext_resource type="Texture2D" uid="uid://cedgotc5cnjeg" path="res://Producer.png" id="1_vuw3h"]
-[ext_resource type="Script" path="res://ProductionTimer.gd" id="2_x535e"]
+[ext_resource type="Texture2D" uid="uid://cedgotc5cnjeg" path="res://producer/Producer.png" id="1_1ygkk"]
+[ext_resource type="Script" path="res://producer/ProductionTimer.gd" id="2_a5iiw"]
 
 [node name="Node2D" type="Node2D"]
 position = Vector2(448, 192)
 
 [node name="Sprite" type="Sprite2D" parent="."]
 scale = Vector2(0.5, 0.5)
-texture = ExtResource("1_vuw3h")
+texture = ExtResource("1_1ygkk")
 
 [node name="Timer" type="Timer" parent="."]
 autostart = true
-script = ExtResource("2_x535e")
+script = ExtResource("2_a5iiw")
 
 [connection signal="timeout" from="Timer" to="Timer" method="_on_timeout"]
